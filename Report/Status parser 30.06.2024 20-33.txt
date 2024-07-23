@@ -1,0 +1,107 @@
+Дата и время запуска парсера: 30.06.2024 20-33
+
+Статус по ошибкам:
+1. Парсинг файлов с сайта: возникла ошибка
+('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+
+
+Исходное стояние директории с хранимыми PDF-файлами:
+1 4МОД 24.06.2024 10-42.pdf
+2 4МОД 24.06.2024 13-07.pdf
+3 4МОД 24.06.2024 13-55.pdf
+4 4МОД 25.06.2024 10-44.pdf
+5 4МОД 25.06.2024 12-31.pdf
+6 4МОД 27.06.2024 06-07.pdf
+7 4МОД 27.06.2024 09-43.pdf
+8 Информационное донесение 04.06.2024 14-29.pdf
+9 Прогноз ВО недельный 12.06.2024 15-58.pdf
+10 Прогноз ЧС ВО 24.06.2024 13-07.pdf
+11 Прогноз ЧС ВО 25.06.2024 12-31.pdf
+12 Прогноз ЧС ВО 27.06.2024 12-43.pdf
+13 Прогноз ЧС по ЮФО 24.06.2024 14-26.pdf
+14 Прогноз ЧС по ЮФО 25.06.2024 15-21.pdf
+15 Прогноз ЧС по ЮФО 27.06.2024 15-32.pdf
+
+
+Исходное стояние директории с хранимыми PNG-файлами (конвертированные PDF):
+1 4МОД 24.06.2024 10-42.png
+2 4МОД 24.06.2024 13-07.png
+3 4МОД 24.06.2024 13-55.png
+4 4МОД 25.06.2024 10-44.png
+5 4МОД 25.06.2024 12-31.png
+6 4МОД 27.06.2024 06-07.png
+7 4МОД 27.06.2024 09-43.png
+8 Информационное донесение 04.06.2024 14-29.png
+9 Прогноз ВО недельный 12.06.2024 15-58.png
+10 Прогноз ЧС ВО 24.06.2024 13-07.png
+11 Прогноз ЧС ВО 25.06.2024 12-31.png
+12 Прогноз ЧС ВО 27.06.2024 12-43.png
+13 Прогноз ЧС по ЮФО 24.06.2024 14-26.png
+14 Прогноз ЧС по ЮФО 25.06.2024 15-21.png
+15 Прогноз ЧС по ЮФО 27.06.2024 15-32.png
+
+Статус по добавлению скаченных файлов в проект:
+1 File: c:\Users\AdminOS\Downloads\Прогноз ЧС по ЮФО 30.06.2024 17-11.pdf added to .\Data_store\pdf
+2 File: c:\Users\AdminOS\Downloads\4МОД 30.06.2024 10-37.pdf added to .\Data_store\pdf
+3 File: c:\Users\AdminOS\Downloads\Прогноз ЧС ВО 29.06.2024 12-09.pdf added to .\Data_store\pdf
+4 File: c:\Users\AdminOS\Downloads\4МОД 29.06.2024 11-01.pdf added to .\Data_store\pdf
+5 File: c:\Users\AdminOS\Downloads\Прогноз ЧС по ЮФО 28.06.2024 15-10.pdf added to .\Data_store\pdf
+6 File: c:\Users\AdminOS\Downloads\4МОД 28.06.2024 15-10.pdf added to .\Data_store\pdf
+7 File: c:\Users\AdminOS\Downloads\Прогноз ЧС ВО 28.06.2024 15-10.pdf added to .\Data_store\pdf
+8 File: c:\Users\AdminOS\Downloads\4МОД 28.06.2024 10-27.pdf added to .\Data_store\pdf
+9 File: c:\Users\AdminOS\Downloads\Прогноз ЧС по ЮФО 27.06.2024 15-32.pdf don't add to .\Data_store\pdf
+10 File: c:\Users\AdminOS\Downloads\Прогноз ЧС ВО 27.06.2024 12-43.pdf don't add to .\Data_store\pdf
+11 File: c:\Users\AdminOS\Downloads\4МОД 27.06.2024 09-43.pdf don't add to .\Data_store\pdf
+
+Удалены неактуальные файлы из хранилища:
+File .\Data_store\pdf\Прогноз ЧС по ЮФО 24.06.2024 14-26.pdf removed from data_store
+File .\Data_store\pdf\Прогноз ЧС по ЮФО 25.06.2024 15-21.pdf removed from data_store
+File .\Data_store\pdf\Прогноз ЧС ВО 24.06.2024 13-07.pdf removed from data_store
+File .\Data_store\pdf\Прогноз ЧС ВО 25.06.2024 12-31.pdf removed from data_store
+File .\Data_store\pdf\4МОД 24.06.2024 10-42.pdf removed from data_store
+File .\Data_store\pdf\4МОД 24.06.2024 13-07.pdf removed from data_store
+File .\Data_store\pdf\4МОД 24.06.2024 13-55.pdf removed from data_store
+File .\Data_store\pdf\4МОД 25.06.2024 10-44.pdf removed from data_store
+File .\Data_store\pdf\4МОД 25.06.2024 12-31.pdf removed from data_store
+File .\Data_store\image_from_pdf\Прогноз ЧС по ЮФО 24.06.2024 14-26.png removed from data_store
+File .\Data_store\image_from_pdf\Прогноз ЧС по ЮФО 25.06.2024 15-21.png removed from data_store
+File .\Data_store\image_from_pdf\Прогноз ЧС ВО 24.06.2024 13-07.png removed from data_store
+File .\Data_store\image_from_pdf\Прогноз ЧС ВО 25.06.2024 12-31.png removed from data_store
+File .\Data_store\image_from_pdf\4МОД 24.06.2024 10-42.png removed from data_store
+File .\Data_store\image_from_pdf\4МОД 24.06.2024 13-07.png removed from data_store
+File .\Data_store\image_from_pdf\4МОД 24.06.2024 13-55.png removed from data_store
+File .\Data_store\image_from_pdf\4МОД 25.06.2024 10-44.png removed from data_store
+File .\Data_store\image_from_pdf\4МОД 25.06.2024 12-31.png removed from data_store
+
+Финальное стояние директории с хранимыми PDF-файлами:
+1 4МОД 27.06.2024 06-07.pdf
+2 4МОД 27.06.2024 09-43.pdf
+3 4МОД 28.06.2024 10-27.pdf
+4 4МОД 28.06.2024 15-10.pdf
+5 4МОД 29.06.2024 11-01.pdf
+6 4МОД 30.06.2024 10-37.pdf
+7 Информационное донесение 04.06.2024 14-29.pdf
+8 Прогноз ВО недельный 12.06.2024 15-58.pdf
+9 Прогноз ЧС ВО 27.06.2024 12-43.pdf
+10 Прогноз ЧС ВО 28.06.2024 15-10.pdf
+11 Прогноз ЧС ВО 29.06.2024 12-09.pdf
+12 Прогноз ЧС по ЮФО 27.06.2024 15-32.pdf
+13 Прогноз ЧС по ЮФО 28.06.2024 15-10.pdf
+14 Прогноз ЧС по ЮФО 30.06.2024 17-11.pdf
+
+
+Финальное стояние директории с хранимыми PNG-файлами (конвертированные PDF):
+1 4МОД 27.06.2024 06-07.png
+2 4МОД 27.06.2024 09-43.png
+3 4МОД 28.06.2024 10-27.png
+4 4МОД 28.06.2024 15-10.png
+5 4МОД 29.06.2024 11-01.png
+6 4МОД 30.06.2024 10-37.png
+7 Информационное донесение 04.06.2024 14-29.png
+8 Прогноз ВО недельный 12.06.2024 15-58.png
+9 Прогноз ЧС ВО 27.06.2024 12-43.png
+10 Прогноз ЧС ВО 28.06.2024 15-10.png
+11 Прогноз ЧС ВО 29.06.2024 12-09.png
+12 Прогноз ЧС по ЮФО 27.06.2024 15-32.png
+13 Прогноз ЧС по ЮФО 28.06.2024 15-10.png
+14 Прогноз ЧС по ЮФО 30.06.2024 17-11.png

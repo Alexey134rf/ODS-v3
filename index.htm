@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <h1> ОДС Главного управления МЧС России по Волгоградской области</h1>
+        <div class="container">
+            <div class="block_nav_pdf">
+                <div>
+                    <h1>Мониторинг пожароопасной ситуации</h1>
+                    <p>4МОД 23.07.2024 11-23.pdf</p>
+                    <div class="block_button_and_info">
+                        <input id="color-input1" type="button" value="Показать" onmousedown="viewDiv1()">
+                        <div class="info">
+                            <img src="image/inf_icon.png" alt="inf_icon">
+                            <div class="tooltip-text">
+                                <p><b>Дата и время в названии файлов:</b><br>дата и время, когда был получен файл от ОДС
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1>Оперативный ежедневный сводный прогноз ЮФО</h1>
+                    <p>Прогноз ЧС по ЮФО 22.07.2024 15-06.pdf</p>
+                    <input id="color-input2" type="button" value="Показать" onmousedown="viewDiv2()">
+                </div>
+                <div>
+                    <h1>Оперативный ежедневный сводный прогноз ВО</h1>
+                    <p>Прогноз ЧС ВО 23.07.2024 12-59.pdf</p>
+                    <input id="color-input3" type="button" value="Показать" onmousedown="viewDiv3()">
+                </div>
+                <div>
+                    <h1>Краткосрочный недельный прогноз ВО</h1>
+                    <p>Прогноз ВО недельный 17.07.2024 15-11.pdf</p>
+                    <input id="color-input4" type="button" value="Показать" onmousedown="viewDiv4()">
+                </div>
+                <div>
+                    <h1>Информационное донесение</h1>
+                    <p>Информационное донесение 12.07.2024 11-23.pdf</p>
+                    <input id="color-input5" type="button" value="Показать" onmousedown="viewDiv5()">
+                </div>
+            </div>
+
+            <div class="block_view_pdf">      
+                <div class="head_view_pdf">
+                    <input id="image_minus" type="button" value="-" onmousedown="ImageMinus()">
+                    <input id="image_plus" type="button" value="+" onmousedown="ImagePlus()">
+                    <a id="download_pdf_a" href="Data_store/pdf/4МОД 23.07.2024 11-23.pdf" download><input id="download_pdf"
+                            type="button" value="Скачать файл"></a>
+                </div>
+                <div class="body_view_pdf">
+                    <img id="imageid" src="Data_store/image_from_pdf/4МОД 23.07.2024 11-23.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+         function ImageMinus() {
+            var img = document.getElementById('imageid'), style = getComputedStyle(img, null),
+                w = style.width, h = style.height, maxh = style.maxHeight, maxw = style.maxWidth;
+
+            w = parseInt(w) * .9; // or whatever your modifier is 
+            h = parseInt(h) * .9; // parseInt removes the traling "px" so
+            img.style.width = w + "px"; // we need to append the "px" 
+            img.style.height = h + "px";
+        };
+        function ImagePlus() {
+            var img = document.getElementById('imageid'), style = getComputedStyle(img, null),
+                w = style.width, h = style.height, maxh = style.maxHeight, maxw = style.maxHeight;
+            w = parseInt(w) * 1.1; // or whatever your modifier is 
+            h = parseInt(h) * 1.1; // parseInt removes the traling "px" so
+            img.style.width = w + "px"; // we need to append the "px" 
+            img.style.height = h + "px";
+        };
+
+        function viewDiv1() {
+            document.getElementById("imageid").src = "Data_store/image_from_pdf/4МОД 23.07.2024 11-23.png";
+            document.getElementById("download_pdf_a").href = "Data_store/pdf/4МОД 23.07.2024 11-23.pdf";
+            document.getElementById("imageid").style.width = "100%";
+            document.getElementById("imageid").style.height = "auto";
+
+            document.getElementById("color-input1").style.color = "#ffffff";
+            document.getElementById("color-input2").style.color = "#000";
+            document.getElementById("color-input3").style.color = "#000";
+            document.getElementById("color-input4").style.color = "#000";
+            document.getElementById("color-input5").style.color = "#000";
+            document.getElementById("color-input1").style.background = "rgb(49, 70, 139)";
+            document.getElementById("color-input2").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input3").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input5").style.background = "hsl(225, 19%, 92%)";
+        };
+        function viewDiv2() {
+            document.getElementById("imageid").src = "Data_store/image_from_pdf/Прогноз ЧС по ЮФО 22.07.2024 15-06.png";
+            document.getElementById("download_pdf_a").href = "Data_store/pdf/Прогноз ЧС по ЮФО 22.07.2024 15-06.pdf";
+            document.getElementById("imageid").style.width = "80%";
+            document.getElementById("imageid").style.height = "auto";
+
+            document.getElementById("color-input1").style.color = "#000";
+            document.getElementById("color-input2").style.color = "#ffffff";
+            document.getElementById("color-input3").style.color = "#000";
+            document.getElementById("color-input4").style.color = "#000";
+            document.getElementById("color-input5").style.color = "#000";
+            document.getElementById("color-input1").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input2").style.background = "rgb(49, 70, 139)";
+            document.getElementById("color-input3").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input5").style.background = "hsl(225, 19%, 92%)";
+        };
+        function viewDiv3() {
+            document.getElementById("imageid").src = "Data_store/image_from_pdf/Прогноз ЧС ВО 23.07.2024 12-59.png";
+            document.getElementById("download_pdf_a").href = "Data_store/pdf/Прогноз ЧС ВО 23.07.2024 12-59.pdf";
+            document.getElementById("imageid").style.width = "80%";
+            document.getElementById("imageid").style.height = "auto";
+
+            document.getElementById("color-input1").style.color = "#000";
+            document.getElementById("color-input2").style.color = "#000";
+            document.getElementById("color-input3").style.color = "#ffffff";
+            document.getElementById("color-input4").style.color = "#000";
+            document.getElementById("color-input5").style.color = "#000";
+            document.getElementById("color-input1").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input2").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input3").style.background = "rgb(49, 70, 139)";
+            document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input5").style.background = "hsl(225, 19%, 92%)";
+        };
+
+        function viewDiv4() {
+            document.getElementById("imageid").src = "Data_store/image_from_pdf/Прогноз ВО недельный 17.07.2024 15-11.png";
+            document.getElementById("download_pdf_a").href = "Data_store/pdf/Прогноз ВО недельный 17.07.2024 15-11.pdf";
+            document.getElementById("imageid").style.width = "80%";
+            document.getElementById("imageid").style.height = "auto";
+
+            document.getElementById("color-input1").style.color = "#000";
+            document.getElementById("color-input2").style.color = "#000";
+            document.getElementById("color-input3").style.color = "#000";
+            document.getElementById("color-input4").style.color = "#ffffff";
+            document.getElementById("color-input5").style.color = "#000";
+            document.getElementById("color-input1").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input2").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input3").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input4").style.background = "rgb(49, 70, 139)";
+            document.getElementById("color-input5").style.background = "hsl(225, 19%, 92%)";
+        };
+
+        function viewDiv5() {
+            document.getElementById("imageid").src = "Data_store/image_from_pdf/Информационное донесение 12.07.2024 11-23.png";
+            document.getElementById("download_pdf_a").href = "Data_store/pdf/Информационное донесение 12.07.2024 11-23.pdf";
+            document.getElementById("imageid").style.width = "80%";
+            document.getElementById("imageid").style.height = "auto";
+
+            document.getElementById("color-input1").style.color = "#000";
+            document.getElementById("color-input2").style.color = "#000";
+            document.getElementById("color-input3").style.color = "#000";
+            document.getElementById("color-input4").style.color = "#000";
+            document.getElementById("color-input5").style.color = "#ffffff";
+            document.getElementById("color-input1").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input2").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input3").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input4").style.background = "hsl(225, 19%, 92%)";
+            document.getElementById("color-input5").style.background = "rgb(49, 70, 139)";
+        };
+
+        function myFunctionSearch() {
+            var input = document.getElementById("Search");
+            var filter = input.value.toLowerCase();
+            var nodes = document.getElementsByClassName('camera_block');
+
+            for (i = 0; i < nodes.length; i++) {
+                if (nodes[i].innerText.toLowerCase().includes(filter)) {
+                    nodes[i].style.display = "block";
+                } else {
+                    nodes[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

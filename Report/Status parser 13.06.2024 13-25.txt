@@ -1,0 +1,40 @@
+Дата и время запуска парсера: 13.06.2024 13-25
+
+Статус по ошибкам:
+1. Парсинг файлов с сайта: возникла ошибка
+Message: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: unable to send message to renderer)
+  (Session info: chrome=125.0.6422.142)
+Stacktrace:
+	GetHandleVerifier [0x00007FF701391F22+60322]
+	(No symbol) [0x00007FF70130CE99]
+	(No symbol) [0x00007FF7011C7EBA]
+	(No symbol) [0x00007FF7011B15EF]
+	(No symbol) [0x00007FF7011B0D17]
+	(No symbol) [0x00007FF7011B04D1]
+	(No symbol) [0x00007FF7011B0410]
+	(No symbol) [0x00007FF7011AE39D]
+	(No symbol) [0x00007FF7011AEBAF]
+	(No symbol) [0x00007FF7011CBAAF]
+	(No symbol) [0x00007FF7011CC5D3]
+	(No symbol) [0x00007FF7011D0641]
+	(No symbol) [0x00007FF7011D06E0]
+	(No symbol) [0x00007FF70121733B]
+	(No symbol) [0x00007FF70121773C]
+	(No symbol) [0x00007FF70125E967]
+	(No symbol) [0x00007FF70123C25F]
+	(No symbol) [0x00007FF70125BC80]
+	(No symbol) [0x00007FF70123BFC3]
+	(No symbol) [0x00007FF701209617]
+	(No symbol) [0x00007FF70120A211]
+	GetHandleVerifier [0x00007FF7016A946D+3301613]
+	GetHandleVerifier [0x00007FF7016F3693+3605267]
+	GetHandleVerifier [0x00007FF7016E9410+3563664]
+	GetHandleVerifier [0x00007FF7014442F6+790390]
+	(No symbol) [0x00007FF7013174DF]
+	(No symbol) [0x00007FF7013133D4]
+	(No symbol) [0x00007FF701313562]
+	(No symbol) [0x00007FF701302F6F]
+	BaseThreadInitThunk [0x00007FFE136D7344+20]
+	RtlUserThreadStart [0x00007FFE148A26B1+33]
+

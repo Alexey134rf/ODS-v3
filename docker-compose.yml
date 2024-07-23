@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  parser_ods_v3_lxc:
+    build: .
+    # image: ods_parser_v3
+    restart: always
+    container_name: parser_ods_v3_lxc
+    volumes:
+      - .:/root/ods_v3_lxc/lxc_project

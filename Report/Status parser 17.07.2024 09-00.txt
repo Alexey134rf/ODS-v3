@@ -1,0 +1,36 @@
+Дата и время запуска парсера: 17.07.2024 09-00
+
+Статус по ошибкам:
+1. Парсинг файлов с сайта: возникла ошибка
+Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=126.0.6478.182)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CA5A1F22+60322]
+	(No symbol) [0x00007FF7CA51CE99]
+	(No symbol) [0x00007FF7CA3D7EBA]
+	(No symbol) [0x00007FF7CA3CFEA2]
+	(No symbol) [0x00007FF7CA3C09C4]
+	(No symbol) [0x00007FF7CA3C2212]
+	(No symbol) [0x00007FF7CA3C0CF1]
+	(No symbol) [0x00007FF7CA3C04D1]
+	(No symbol) [0x00007FF7CA3C0410]
+	(No symbol) [0x00007FF7CA3BE39D]
+	(No symbol) [0x00007FF7CA3BE9DC]
+	(No symbol) [0x00007FF7CA3DAC91]
+	(No symbol) [0x00007FF7CA46C5FE]
+	(No symbol) [0x00007FF7CA44C21A]
+	(No symbol) [0x00007FF7CA46BC80]
+	(No symbol) [0x00007FF7CA44BFC3]
+	(No symbol) [0x00007FF7CA419617]
+	(No symbol) [0x00007FF7CA41A211]
+	GetHandleVerifier [0x00007FF7CA8B946D+3301613]
+	GetHandleVerifier [0x00007FF7CA903693+3605267]
+	GetHandleVerifier [0x00007FF7CA8F9410+3563664]
+	GetHandleVerifier [0x00007FF7CA6542F6+790390]
+	(No symbol) [0x00007FF7CA5274DF]
+	(No symbol) [0x00007FF7CA5233D4]
+	(No symbol) [0x00007FF7CA523562]
+	(No symbol) [0x00007FF7CA512F6F]
+	BaseThreadInitThunk [0x00007FF973B77344+20]
+	RtlUserThreadStart [0x00007FF975B826B1+33]
+

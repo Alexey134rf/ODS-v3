@@ -1,0 +1,126 @@
+Дата и время запуска парсера: 16.06.2024 21-46
+
+Статус по ошибкам:
+1. Парсинг файлов с сайта: возникла ошибка
+Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=125.0.6422.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7952C1F22+60322]
+	(No symbol) [0x00007FF79523CE99]
+	(No symbol) [0x00007FF7950F7EBA]
+	(No symbol) [0x00007FF7950FDCEE]
+	(No symbol) [0x00007FF795100641]
+	(No symbol) [0x00007FF7951006E0]
+	(No symbol) [0x00007FF79514968C]
+	(No symbol) [0x00007FF79513B346]
+	(No symbol) [0x00007FF79516C21A]
+	(No symbol) [0x00007FF79513ADB6]
+	(No symbol) [0x00007FF79516C430]
+	(No symbol) [0x00007FF79518BC80]
+	(No symbol) [0x00007FF79516BFC3]
+	(No symbol) [0x00007FF795139617]
+	(No symbol) [0x00007FF79513A211]
+	GetHandleVerifier [0x00007FF7955D946D+3301613]
+	GetHandleVerifier [0x00007FF795623693+3605267]
+	GetHandleVerifier [0x00007FF795619410+3563664]
+	GetHandleVerifier [0x00007FF7953742F6+790390]
+	(No symbol) [0x00007FF7952474DF]
+	(No symbol) [0x00007FF7952433D4]
+	(No symbol) [0x00007FF795243562]
+	(No symbol) [0x00007FF795232F6F]
+	BaseThreadInitThunk [0x00007FFF2ECA7344+20]
+	RtlUserThreadStart [0x00007FFF2F81CC91+33]
+
+
+
+Исходное стояние директории с хранимыми PDF-файлами:
+1 4МОД 10.06.2024 10-39.pdf
+2 4МОД 12.06.2024 11-03.pdf
+3 4МОД 12.06.2024 13-44.pdf
+4 4МОД 12.06.2024 15-03.pdf
+5 4МОД 13.06.2024 10-17.pdf
+6 4МОД 13.06.2024 12-54.pdf
+7 Информационное донесение 04.06.2024 14-29.pdf
+8 Прогноз ВО недельный 12.06.2024 15-58.pdf
+9 Прогноз ЧС ВО 10.06.2024 12-01.pdf
+10 Прогноз ЧС ВО 11.06.2024 20-34.pdf
+11 Прогноз ЧС ВО 12.06.2024 13-44.pdf
+12 Прогноз ЧС ВО 13.06.2024 12-54.pdf
+13 Прогноз ЧС по ЮФО 10.06.2024 15-27.pdf
+14 Прогноз ЧС по ЮФО 12.06.2024 16-02.pdf
+15 Прогноз ЧС по ЮФО 13.06.2024 14-57.pdf
+
+
+Исходное стояние директории с хранимыми PNG-файлами (конвертированные PDF):
+1 4МОД 10.06.2024 10-39.png
+2 4МОД 12.06.2024 11-03.png
+3 4МОД 12.06.2024 13-44.png
+4 4МОД 12.06.2024 15-03.png
+5 4МОД 13.06.2024 10-17.png
+6 4МОД 13.06.2024 12-54.png
+7 Информационное донесение 04.06.2024 14-29.png
+8 Прогноз ВО недельный 12.06.2024 15-58.png
+9 Прогноз ЧС ВО 10.06.2024 12-01.png
+10 Прогноз ЧС ВО 11.06.2024 20-34.png
+11 Прогноз ЧС ВО 12.06.2024 13-44.png
+12 Прогноз ЧС ВО 13.06.2024 12-54.png
+13 Прогноз ЧС по ЮФО 10.06.2024 15-27.png
+14 Прогноз ЧС по ЮФО 12.06.2024 16-02.png
+15 Прогноз ЧС по ЮФО 13.06.2024 14-57.png
+
+Статус по добавлению скаченных файлов в проект:
+1 File: c:\Users\AdminOS\Downloads\Прогноз ЧС по ЮФО 16.06.2024 15-37.pdf added to H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf
+2 File: c:\Users\AdminOS\Downloads\Прогноз ЧС ВО 16.06.2024 13-30.pdf added to H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf
+3 File: c:\Users\AdminOS\Downloads\4МОД 16.06.2024 11-58.pdf added to H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf
+4 File: c:\Users\AdminOS\Downloads\Прогноз ЧС по ЮФО 15.06.2024 15-20.pdf added to H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf
+5 File: c:\Users\AdminOS\Downloads\Прогноз ЧС ВО 15.06.2024 13-14.pdf added to H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf
+6 File: c:\Users\AdminOS\Downloads\Прогноз ЧС ВО 15.06.2024 11-58.pdf added to H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf
+
+Удалены неактуальные файлы из хранилища:
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf\Прогноз ЧС по ЮФО 10.06.2024 15-27.pdf removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf\Прогноз ЧС по ЮФО 12.06.2024 16-02.pdf removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf\Прогноз ЧС ВО 10.06.2024 12-01.pdf removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf\Прогноз ЧС ВО 11.06.2024 20-34.pdf removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf\Прогноз ЧС ВО 12.06.2024 13-44.pdf removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf\4МОД 10.06.2024 10-39.pdf removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf\4МОД 12.06.2024 11-03.pdf removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf\4МОД 12.06.2024 13-44.pdf removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\pdf\4МОД 12.06.2024 15-03.pdf removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\image_from_pdf\Прогноз ЧС по ЮФО 10.06.2024 15-27.png removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\image_from_pdf\Прогноз ЧС по ЮФО 12.06.2024 16-02.png removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\image_from_pdf\Прогноз ЧС ВО 10.06.2024 12-01.png removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\image_from_pdf\Прогноз ЧС ВО 11.06.2024 20-34.png removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\image_from_pdf\Прогноз ЧС ВО 12.06.2024 13-44.png removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\image_from_pdf\4МОД 10.06.2024 10-39.png removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\image_from_pdf\4МОД 12.06.2024 11-03.png removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\image_from_pdf\4МОД 12.06.2024 13-44.png removed from data_store
+File H:\01_Materials for self-development\01_Development\Python\Program\Скрипты СЦ ГВО\ODS\Data_store\image_from_pdf\4МОД 12.06.2024 15-03.png removed from data_store
+
+Финальное стояние директории с хранимыми PDF-файлами:
+1 4МОД 13.06.2024 10-17.pdf
+2 4МОД 13.06.2024 12-54.pdf
+3 4МОД 16.06.2024 11-58.pdf
+4 Информационное донесение 04.06.2024 14-29.pdf
+5 Прогноз ВО недельный 12.06.2024 15-58.pdf
+6 Прогноз ЧС ВО 13.06.2024 12-54.pdf
+7 Прогноз ЧС ВО 15.06.2024 11-58.pdf
+8 Прогноз ЧС ВО 15.06.2024 13-14.pdf
+9 Прогноз ЧС ВО 16.06.2024 13-30.pdf
+10 Прогноз ЧС по ЮФО 13.06.2024 14-57.pdf
+11 Прогноз ЧС по ЮФО 15.06.2024 15-20.pdf
+12 Прогноз ЧС по ЮФО 16.06.2024 15-37.pdf
+
+
+Финальное стояние директории с хранимыми PNG-файлами (конвертированные PDF):
+1 4МОД 13.06.2024 10-17.png
+2 4МОД 13.06.2024 12-54.png
+3 4МОД 16.06.2024 11-58.png
+4 Информационное донесение 04.06.2024 14-29.png
+5 Прогноз ВО недельный 12.06.2024 15-58.png
+6 Прогноз ЧС ВО 13.06.2024 12-54.png
+7 Прогноз ЧС ВО 15.06.2024 11-58.png
+8 Прогноз ЧС ВО 15.06.2024 13-14.png
+9 Прогноз ЧС ВО 16.06.2024 13-30.png
+10 Прогноз ЧС по ЮФО 13.06.2024 14-57.png
+11 Прогноз ЧС по ЮФО 15.06.2024 15-20.png
+12 Прогноз ЧС по ЮФО 16.06.2024 15-37.png

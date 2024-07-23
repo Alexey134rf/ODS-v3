@@ -1,0 +1,28 @@
+Дата и время запуска парсера: 11.06.2024 15-20
+
+Статус по ошибкам:
+1. Парсинг файлов с сайта: возникла ошибка
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.142)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E85F1F22+60322]
+	(No symbol) [0x00007FF7E856CE99]
+	(No symbol) [0x00007FF7E8427EBA]
+	(No symbol) [0x00007FF7E83FD5A5]
+	(No symbol) [0x00007FF7E84A36B7]
+	(No symbol) [0x00007FF7E84BB331]
+	(No symbol) [0x00007FF7E849BFC3]
+	(No symbol) [0x00007FF7E8469617]
+	(No symbol) [0x00007FF7E846A211]
+	GetHandleVerifier [0x00007FF7E890946D+3301613]
+	GetHandleVerifier [0x00007FF7E8953693+3605267]
+	GetHandleVerifier [0x00007FF7E8949410+3563664]
+	GetHandleVerifier [0x00007FF7E86A42F6+790390]
+	(No symbol) [0x00007FF7E85774DF]
+	(No symbol) [0x00007FF7E85733D4]
+	(No symbol) [0x00007FF7E8573562]
+	(No symbol) [0x00007FF7E8562F6F]
+	BaseThreadInitThunk [0x00007FFE136D7344+20]
+	RtlUserThreadStart [0x00007FFE148A26B1+33]
+

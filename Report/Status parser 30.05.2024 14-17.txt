@@ -1,0 +1,29 @@
+Дата и время запуска парсера: 30.05.2024 14-17
+
+Статус по ошибкам:
+1. Парсинг файлов с сайта: возникла ошибка
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.samoware-folder.samoware-folder_type_inbox.samoware-folder_nested_0.samoware-folder_mode_active.samoware-folder_mode_more:nth-child(2) > span.samoware-folder__link > span.samoware-folder__wrapper.ng-binding"}
+  (Session info: chrome=125.0.6422.113); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF785791502+60802]
+	(No symbol) [0x00007FF78570AC02]
+	(No symbol) [0x00007FF7855C7CE4]
+	(No symbol) [0x00007FF785616D4D]
+	(No symbol) [0x00007FF785616E1C]
+	(No symbol) [0x00007FF78565CE37]
+	(No symbol) [0x00007FF78563ABBF]
+	(No symbol) [0x00007FF78565A224]
+	(No symbol) [0x00007FF78563A923]
+	(No symbol) [0x00007FF785608FEC]
+	(No symbol) [0x00007FF785609C21]
+	GetHandleVerifier [0x00007FF785A9411D+3217821]
+	GetHandleVerifier [0x00007FF785AD60B7+3488055]
+	GetHandleVerifier [0x00007FF785ACF03F+3459263]
+	GetHandleVerifier [0x00007FF78584B846+823494]
+	(No symbol) [0x00007FF785715F9F]
+	(No symbol) [0x00007FF785710EC4]
+	(No symbol) [0x00007FF785711052]
+	(No symbol) [0x00007FF7857018A4]
+	BaseThreadInitThunk [0x00007FFE136D7344+20]
+	RtlUserThreadStart [0x00007FFE148A26B1+33]
+

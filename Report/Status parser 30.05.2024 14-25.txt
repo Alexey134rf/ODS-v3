@@ -1,0 +1,36 @@
+Дата и время запуска парсера: 30.05.2024 14-25
+
+Статус по ошибкам:
+1. Парсинг файлов с сайта: возникла ошибка
+Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=125.0.6422.113)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6898E1F22+60322]
+	(No symbol) [0x00007FF68985CE99]
+	(No symbol) [0x00007FF689717EBA]
+	(No symbol) [0x00007FF68970FEA2]
+	(No symbol) [0x00007FF6897009C4]
+	(No symbol) [0x00007FF689702212]
+	(No symbol) [0x00007FF689700CF1]
+	(No symbol) [0x00007FF6897004D1]
+	(No symbol) [0x00007FF689700410]
+	(No symbol) [0x00007FF6896FE39D]
+	(No symbol) [0x00007FF6896FE9DC]
+	(No symbol) [0x00007FF68971AC91]
+	(No symbol) [0x00007FF6897AC5FE]
+	(No symbol) [0x00007FF68978C21A]
+	(No symbol) [0x00007FF6897ABC80]
+	(No symbol) [0x00007FF68978BFC3]
+	(No symbol) [0x00007FF689759617]
+	(No symbol) [0x00007FF68975A211]
+	GetHandleVerifier [0x00007FF689BF946D+3301613]
+	GetHandleVerifier [0x00007FF689C43693+3605267]
+	GetHandleVerifier [0x00007FF689C39410+3563664]
+	GetHandleVerifier [0x00007FF6899942F6+790390]
+	(No symbol) [0x00007FF6898674DF]
+	(No symbol) [0x00007FF6898633D4]
+	(No symbol) [0x00007FF689863562]
+	(No symbol) [0x00007FF689852F6F]
+	BaseThreadInitThunk [0x00007FFE136D7344+20]
+	RtlUserThreadStart [0x00007FFE148A26B1+33]
+

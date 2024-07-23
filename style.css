@@ -1,0 +1,251 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+#MOD {
+    display: block;
+}
+
+#CHS_UFO {
+    display: none;
+}
+
+#CHS_VO {
+    display: none;
+}
+
+#KNP_VO {
+    display: none;
+}
+
+#IDIV {
+    display: none;
+}
+
+#color-input1 {
+    color: rgb(255, 255, 255);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: bold;
+    background-color: rgb(49, 70, 139);
+}
+
+#color-input2 {
+    color: rgb(0, 0, 0);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: bold;
+    background-color: hsl(225, 19%, 92%);
+}
+
+#color-input3 {
+    color: rgb(0, 0, 0);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: bold;
+
+    background-color: hsl(225, 19%, 92%);
+}
+
+#color-input4 {
+    color: rgb(0, 0, 0);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: bold;
+
+    background-color: hsl(225, 19%, 92%);
+}
+
+#color-input5 {
+    color: rgb(0, 0, 0);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: bold;
+
+    background-color: hsl(225, 19%, 92%);
+}
+
+.dashboard {
+    background-color: rgb(255, 255, 255);
+}
+
+.dashboard>h1 {
+    text-align: center;
+    margin: 0 0 20 0;
+    padding: 15px 0px 15px;
+    color: rgb(253, 253, 253);
+    font-family: roboto, sans-serif;
+    font-size: calc(25px + 0.60vw);
+
+    Font-weight: middle;
+    background-color: rgb(48, 51, 61);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+
+}
+
+.block_nav_pdf {
+    width: 28%;
+    height: 85vh;
+    overflow: auto;
+
+}
+
+.block_button_and_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_nav_pdf h1 {
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 10px;
+    min-height: 36px;
+
+    color: rgb(253, 253, 253);
+    font-family: roboto, sans-serif;
+    font-size: calc(14px + 0.35vw);
+    background-color: rgb(48, 51, 61);
+    border: solid 3px rgb(82, 83, 85);
+}
+
+.block_nav_pdf p {
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 10px;
+
+    color: rgb(0, 0, 0);
+    font-family: roboto, sans-serif;
+    font-size: calc(14px + 0.20vw);
+    Font-weight: middle;
+}
+
+.block_nav_pdf input {
+    display: inline-block;
+
+    width: calc(80px + 7vw);
+    height: 35px;
+    margin: 0 15px 15px 10px;
+
+    color: rgb(0, 0, 0);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: middle;
+}
+
+.block_nav_pdf input:hover {
+    transition: 0.7s;
+}
+
+.info {
+    display: block;
+    padding-right: 5%;
+    padding-top: 5px;
+    /* height: 250px;
+    width: 250px; */
+}
+
+.info img {
+    width: 25px !important;
+    height: 25px !important;
+}
+
+/* .info img[title]:hover:after {
+    content: attr(title);
+    background-color: blue;
+    font-size: 20px;
+} */
+
+.tooltip-text {
+    display: none;
+}
+
+.tooltip-text p {
+    position: absolute;
+    font-family: "PT Sans", sans-serif;
+    background-color: #ccffcb;
+    color: #000000;
+    font-size: calc(14px + 0.20vw);
+    font-weight: 400;
+    text-transform: none;
+    padding: 20px 18px 18px 22px;
+    border-radius: 10px;
+    left: 17%;
+    z-index: 1;
+    transform: translateX(-450%);
+    transform: translateY(10%);
+}
+
+.info img:hover+.tooltip-text {
+    display: block;
+}
+
+
+.block_view_pdf {
+    width: 72%;
+
+}
+
+.head_view_pdf {
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+
+    height: 60px;
+    background-color: rgb(48, 51, 61);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    Font-weight: middle;
+    border: solid 1px rgb(82, 83, 85);
+}
+
+.body_view_pdf {
+
+
+    height: 77vh;
+    margin: 0 0 0 0;
+    overflow: auto;
+}
+
+.body_view_pdf img {
+    width: 100%;
+    height: auto;
+}
+
+.head_view_pdf input {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: roboto, sans-serif;
+    Font-weight: bold;
+    background-color: rgb(88, 87, 87);
+}
+
+.head_view_pdf #image_minus {
+    width: calc(45px + 0.80vw);
+    height: calc(25px + 0.80vw);
+    font-size: calc(12px + 0.70vw);
+
+}
+
+.head_view_pdf #image_plus {
+    width: calc(45px + 0.80vw);
+    height: calc(25px + 0.80vw);
+    font-size: calc(12px + 0.70vw);
+
+}
+
+.head_view_pdf #download_pdf {
+    margin-right: 20px;
+    width: calc(135px + 0.80vw);
+    height: calc(25px + 0.80vw);
+    margin-left: 45px;
+    font-size: calc(10px + 0.45vw);
+}
+
+.head_view_pdf input:hover {
+    background-color: rgb(49, 70, 139);
+}
