@@ -307,7 +307,7 @@ try:
     # Find password box
     password_box = browser.find_element(By.NAME, 'Password')
     # Send password box information
-    password_box.send_keys('Ln##9uFT')
+    password_box.send_keys('Ln##9uFTLn##9uFT')
     
     # Find login button and Click 
     login_button =  WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.NAME, 'login')))
