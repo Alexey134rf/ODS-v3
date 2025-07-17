@@ -1,0 +1,35 @@
+Дата и время запуска парсера: 15.04.2025 06-05
+
+Статус по ошибкам:
+1. Парсинг файлов с сайта: возникла ошибка
+Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome-headless-shell=126.0.6478.182)
+Stacktrace:
+#0 0x55f081773c5a <unknown>
+#1 0x55f081456e2c <unknown>
+#2 0x55f08144e9c0 <unknown>
+#3 0x55f08143e4c2 <unknown>
+#4 0x55f08143fb42 <unknown>
+#5 0x55f08143e77d <unknown>
+#6 0x55f08143de93 <unknown>
+#7 0x55f08143dd85 <unknown>
+#8 0x55f08143bcc6 <unknown>
+#9 0x55f08143c1ca <unknown>
+#10 0x55f081459877 <unknown>
+#11 0x55f0814e5f25 <unknown>
+#12 0x55f0814c65c2 <unknown>
+#13 0x55f0814e5303 <unknown>
+#14 0x55f0814c6363 <unknown>
+#15 0x55f081496247 <unknown>
+#16 0x55f081496b9e <unknown>
+#17 0x55f08173a22b <unknown>
+#18 0x55f08173e2d1 <unknown>
+#19 0x55f081725ade <unknown>
+#20 0x55f08173ee32 <unknown>
+#21 0x55f08170a77f <unknown>
+#22 0x55f081763618 <unknown>
+#23 0x55f0817637f0 <unknown>
+#24 0x55f081772d8c <unknown>
+#25 0x7f9dc2817a94 <unknown>
+#26 0x7f9dc28a4a34 __clone
+

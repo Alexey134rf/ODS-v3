@@ -1,0 +1,28 @@
+Дата и время запуска парсера: 13.07.2025 20-05
+
+Статус по ошибкам:
+1. Парсинг файлов с сайта: возникла ошибка
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome-headless-shell=126.0.6478.182); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x556f16887c5a <unknown>
+#1 0x556f1656ae2c <unknown>
+#2 0x556f165b7661 <unknown>
+#3 0x556f165b7751 <unknown>
+#4 0x556f165fbf64 <unknown>
+#5 0x556f165da5ed <unknown>
+#6 0x556f165f9303 <unknown>
+#7 0x556f165da363 <unknown>
+#8 0x556f165aa247 <unknown>
+#9 0x556f165aab9e <unknown>
+#10 0x556f1684e22b <unknown>
+#11 0x556f168522d1 <unknown>
+#12 0x556f16839ade <unknown>
+#13 0x556f16852e32 <unknown>
+#14 0x556f1681e77f <unknown>
+#15 0x556f16877618 <unknown>
+#16 0x556f168777f0 <unknown>
+#17 0x556f16886d8c <unknown>
+#18 0x7f85395e6a94 <unknown>
+#19 0x7f8539673a34 __clone
+

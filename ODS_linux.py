@@ -290,6 +290,9 @@ try:
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-gpu")
     
+    # Добавляем игнорирование ошибок сертификатов
+    options.add_argument('--ignore-certificate-errors')
+    
     browser = webdriver.Chrome(options)
     
     # !!!Важно: при изменении разрешения экрана, меняется атрибуты тегов (классы, …), бывает и так!
@@ -298,6 +301,9 @@ try:
     
     browser.implicitly_wait(15)
     browser.get(LINK_TO_SITE)
+    
+    # Создание скриншота браузера
+    # browser.save_screenshot("screenshot.png")
     
     # 1. Авторизация на почте  
     # Select the Login box

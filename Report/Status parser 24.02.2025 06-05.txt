@@ -1,0 +1,28 @@
+Дата и время запуска парсера: 24.02.2025 06-05
+
+Статус по ошибкам:
+1. Парсинг файлов с сайта: возникла ошибка
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.samoware-folder.samoware-folder_type_inbox.samoware-folder_nested_0.samoware-folder_mode_active.samoware-folder_mode_more:nth-child(2) > span.samoware-folder__link > span.samoware-folder__wrapper.ng-binding"}
+  (Session info: chrome-headless-shell=126.0.6478.182); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55c332088c5a <unknown>
+#1 0x55c331d6be2c <unknown>
+#2 0x55c331db8661 <unknown>
+#3 0x55c331db8751 <unknown>
+#4 0x55c331dfcf64 <unknown>
+#5 0x55c331ddb5ed <unknown>
+#6 0x55c331dfa303 <unknown>
+#7 0x55c331ddb363 <unknown>
+#8 0x55c331dab247 <unknown>
+#9 0x55c331dabb9e <unknown>
+#10 0x55c33204f22b <unknown>
+#11 0x55c3320532d1 <unknown>
+#12 0x55c33203aade <unknown>
+#13 0x55c332053e32 <unknown>
+#14 0x55c33201f77f <unknown>
+#15 0x55c332078618 <unknown>
+#16 0x55c3320787f0 <unknown>
+#17 0x55c332087d8c <unknown>
+#18 0x7ff719f1ca94 <unknown>
+#19 0x7ff719fa9a34 __clone
+

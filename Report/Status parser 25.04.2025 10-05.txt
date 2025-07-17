@@ -1,0 +1,31 @@
+Дата и время запуска парсера: 25.04.2025 10-05
+
+Статус по ошибкам:
+1. Парсинг файлов с сайта: возникла ошибка
+Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome-headless-shell=126.0.6478.182)
+Stacktrace:
+#0 0x55fbe7c42c5a <unknown>
+#1 0x55fbe7925c71 <unknown>
+#2 0x55fbe790cd35 <unknown>
+#3 0x55fbe790acc6 <unknown>
+#4 0x55fbe790b33f <unknown>
+#5 0x55fbe791bc67 <unknown>
+#6 0x55fbe7932465 <unknown>
+#7 0x55fbe79b4447 <unknown>
+#8 0x55fbe7995363 <unknown>
+#9 0x55fbe7965247 <unknown>
+#10 0x55fbe7965b9e <unknown>
+#11 0x55fbe7c0922b <unknown>
+#12 0x55fbe7c0d2d1 <unknown>
+#13 0x55fbe7bf4ade <unknown>
+#14 0x55fbe7c0de32 <unknown>
+#15 0x55fbe7bd977f <unknown>
+#16 0x55fbe7c32618 <unknown>
+#17 0x55fbe7c327f0 <unknown>
+#18 0x55fbe7c41d8c <unknown>
+#19 0x7f8ea59aba94 <unknown>
+#20 0x7f8ea5a38a34 __clone
+
